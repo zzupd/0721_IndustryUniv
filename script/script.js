@@ -25,9 +25,18 @@ $(function(){
             }
         );
     }
-
-
     // 슬라이드쇼 끝
+
+
+    // 모달레이어 팝업 시작
+    $("#popPoint").click(function(){
+        $("#layerBG").css({"display": "block"});
+    });
+    $("#closeBtnArea button").click(function(){
+        $("#layerBG").css({"display": "none"});
+    });
+    // 모달레이어 팝업 끝
+
 
 
 
